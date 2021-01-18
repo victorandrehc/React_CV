@@ -8,11 +8,11 @@ import Contact from './contact'
 import Error from './erro'
 import Navbar from './navbar'
 
-const paths=['/','/about','/contact']
+const paths=['/React_CV/dashboard','/React_CV','/React_CV/contact']
 function App() {
-  const [currentPath, setCurrentPath] = useState('/')
+  const [currentPath, setCurrentPath] = useState('/React_CV')
   useEffect(() => {
-   document.title = "Demo App"
+   document.title = "Victor Costa"
   }, []);
   return (
     <Router>

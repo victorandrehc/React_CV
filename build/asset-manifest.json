@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React_CV/static/css/main.d5af3fa4.chunk.css",
+    "main.js": "/React_CV/static/js/main.79e78c8f.chunk.js",
+    "main.js.map": "/React_CV/static/js/main.79e78c8f.chunk.js.map",
+    "runtime-main.js": "/React_CV/static/js/runtime-main.94b00ffe.js",
+    "runtime-main.js.map": "/React_CV/static/js/runtime-main.94b00ffe.js.map",
+    "static/js/2.373d1750.chunk.js": "/React_CV/static/js/2.373d1750.chunk.js",
+    "static/js/2.373d1750.chunk.js.map": "/React_CV/static/js/2.373d1750.chunk.js.map",
+    "static/js/3.f9b9e84b.chunk.js": "/React_CV/static/js/3.f9b9e84b.chunk.js",
+    "static/js/3.f9b9e84b.chunk.js.map": "/React_CV/static/js/3.f9b9e84b.chunk.js.map",
+    "index.html": "/React_CV/index.html",
+    "static/css/main.d5af3fa4.chunk.css.map": "/React_CV/static/css/main.d5af3fa4.chunk.css.map",
+    "static/js/2.373d1750.chunk.js.LICENSE.txt": "/React_CV/static/js/2.373d1750.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/React_CV/static/media/about_backgroundv2.ab16114a.jpg",
+    "static/media/profile_picv2.a8ea9803.png": "/React_CV/static/media/profile_picv2.a8ea9803.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94b00ffe.js",
+    "static/js/2.373d1750.chunk.js",
+    "static/css/main.d5af3fa4.chunk.css",
+    "static/js/main.79e78c8f.chunk.js"
+  ]
+}

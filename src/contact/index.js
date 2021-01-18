@@ -11,7 +11,7 @@ const Contact = ({setPath}) => {
     }
     
     useEffect(()=>{
-        setPath("/contact")
+        setPath("/React_CV/contact")
     })
     const handleSubmit = (e)=>{
         e.preventDefault()

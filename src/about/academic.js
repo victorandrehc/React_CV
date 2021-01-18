@@ -49,7 +49,6 @@ const Academic = () => {
             </section>
             )
     }
-    console.log(index)
     return (
        <section className='section'>
             <div className='title'>

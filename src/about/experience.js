@@ -13,7 +13,6 @@ const Experience = () => {
 
   const fetchJobs = () => {
     const newJobs = jobsList
-    console.log(newJobs)
     setJobs(newJobs)
     setLoading(false)
   }

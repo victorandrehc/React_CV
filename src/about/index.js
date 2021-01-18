@@ -12,7 +12,7 @@ import './About.css';
 
 const About = ({setPath}) => {
   useEffect(()=>{
-    setPath('/about')
+    setPath('/React_CV')
   })
   return (
     <>

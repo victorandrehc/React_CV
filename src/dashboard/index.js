@@ -7,7 +7,7 @@ import functions from './functions'
 
 const Dashboard = ({setPath}) => {
   useEffect(()=>{
-    setPath('/')
+    setPath('/React_CV/dashboard')
   })
   return (
       <ul className='items'>

@@ -4,13 +4,13 @@ import { FaXing, FaLinkedin, FaTwitter, FaGithub, FaMailBulk } from 'react-icons
 export const links = [
   {
     id: 1,
-    url: '/',
-    text: 'Home',
+    url: '/React_CV/dashboard',
+    text: 'Dashboard',
   },
   {
     id: 2,
-    url: '/about',
-    text: 'about',
+    url: '/React_CV',
+    text: 'Home',
   },
   // {
   //   id: 3,
@@ -51,7 +51,7 @@ export const social = [
     icon: <FaTwitter />,
   },
   {
-    id: 4,
+    id: 5,
     url: 'mailto:victorandrehc@gmail.com',
     icon: <FaMailBulk />,
   },

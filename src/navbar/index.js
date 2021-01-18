@@ -9,7 +9,6 @@ import './Navbar.css';
 const Navbar = ({currentPath, paths}) => {
   const [showLinks, setShowLinks] = useState(false)
   const [activeLinkValue, setActiveLinkValue] = useState(0);
-  console.log(currentPath)
   const linksContainerRef = useRef(null)
   const linksRef = useRef(null)
 
