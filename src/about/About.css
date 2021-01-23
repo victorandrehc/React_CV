@@ -1,11 +1,5 @@
 @import "../index.css";
 
-/* .intro {
-  background-color: var(--clr--blue);
-  background-image: url(../assets/about_background_rs_blur_com.jpg);
-  padding-top: 20rem;
-} */
-
 .intro {
   background-color: var(--clr--blue);
   background-image: url(../assets/about_background_rs_blur_com.jpg);
@@ -20,23 +14,11 @@
   justify-content: center;
 }
 
-/* .avatar {
-  grid-column: 2 / span 1;
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-} */
 .avatar {
   grid-column: 2 / span 1;
   display: flex;
   justify-content: center;
 }
-
-/* .avatar img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-} */
 
 .avatar img {
   width: 50%;
