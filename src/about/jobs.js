@@ -4,7 +4,7 @@ export const jobsList = [
         companyLong: "IAG",
         dates: "October 2018 - Present",
         duties: [ 
-                "Development and implementation of the electronic, software and real-time control from the new SOAR telescope Adaptive optics module (SAMplus). I'm designing and coding a MIMO control system using C, labVIEW and Python."
+                "Development and implementation of the electronic, software and real-time control from the new SOAR telescope Adaptive optics module (SAMplus). I'm designing and coding a MIMO control system using C, LabVIEW and Python."
             ],
         id: 1,
         title: "Software and Control Engineer at the SAMplus project",

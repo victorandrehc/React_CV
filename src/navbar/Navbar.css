@@ -54,6 +54,11 @@ nav {
 .show-container {
   height: 10rem;
 }
+
+.underline {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
@@ -94,13 +99,13 @@ nav {
   .social-icons a:hover {
     color: var(--clr-primary-7);
   }
-}
-
-.underline {
-  width: 5rem;
-  height: 0.25rem;
-  margin-bottom: 1.25rem;
-  background: var(--clr-primary-5);
-  margin-left: auto;
-  margin-right: auto;
+  .underline {
+    display: block;
+    width: 5rem;
+    height: 0.25rem;
+    margin-bottom: 1.25rem;
+    background: var(--clr-primary-5);
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
