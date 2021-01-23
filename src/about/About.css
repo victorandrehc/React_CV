@@ -76,6 +76,9 @@
   .avatar {
     grid-column: 1 / span 3;
   }
+  .avatar img {
+    width: 50%;
+  }
 }
 
 /* section */
