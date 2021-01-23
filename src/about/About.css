@@ -1,5 +1,11 @@
 @import "../index.css";
 
+/* .intro {
+  background-color: var(--clr--blue);
+  background-image: url(../assets/about_background_rs_blur_com.jpg);
+  padding-top: 20rem;
+} */
+
 .intro {
   background-color: var(--clr--blue);
   background-image: url(../assets/about_background_rs_blur_com.jpg);
@@ -14,13 +20,26 @@
   justify-content: center;
 }
 
-.avatar {
+/* .avatar {
   grid-column: 2 / span 1;
   display: inline-block;
+  display: flex;
+  justify-content: center;
+} */
+.avatar {
+  grid-column: 2 / span 1;
+  display: flex;
+  justify-content: center;
 }
 
-.avatar img {
+/* .avatar img {
   width: 100%;
+  height: auto;
+  border-radius: 50%;
+} */
+
+.avatar img {
+  width: 50%;
   height: auto;
   border-radius: 50%;
 }
@@ -30,7 +49,9 @@
   margin-right: auto;
   width: 100%;
   text-align: center;
-  padding: 20px 20px;
+  padding: 20px 10em;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
 }
 
 .description p {
@@ -48,7 +69,13 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
+  .intro {
+    padding-top: 2rem;
+  }
+  .avatar img {
+    width: 100%;
+  }
   .intro {
     padding-top: 10rem;
   }
