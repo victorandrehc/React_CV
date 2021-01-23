@@ -2,7 +2,7 @@
 
 .intro {
   background-color: var(--clr--blue);
-  background-image: url(../assets/about_backgroundv2.jpg);
+  background-image: url(../assets/about_background_rs_com.jpg);
   padding-top: 20rem;
 }
 .topBar {
@@ -40,7 +40,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  color: var(--clr--white);
+  color: var(--clr--blue);
 }
 
 @media screen and (max-width: 900px) {
