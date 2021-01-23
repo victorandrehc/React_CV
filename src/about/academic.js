@@ -5,7 +5,7 @@ import { FaQuoteRight } from 'react-icons/fa'
 import './About.css';
 import schoolsList from './schools';
 
-
+const TIMEOUT = 10000;
 const Academic = () => {
     const [loading, setLoading] = useState(true)
     const [index, setIndex] = useState(-1);
@@ -36,7 +36,7 @@ const Academic = () => {
     useEffect(() => {
         const slider = setInterval(() => {
             handleIndex(index + 1);
-        }, 5000);
+        }, TIMEOUT);
         return () => {
             clearInterval(slider);
         };
