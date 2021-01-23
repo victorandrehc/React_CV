@@ -2,36 +2,35 @@
 
 .intro {
   background-color: var(--clr--blue);
-  background-image: url(../assets/about_background_rs_com.jpg);
+  background-image: url(../assets/about_background_rs_blur_com.jpg);
   padding-top: 20rem;
 }
+
 .topBar {
-  margin-left: auto;
-  margin-right: auto;
-  width: 40em;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .avatar {
+  grid-column: 2 / span 1;
   display: inline-block;
-  position: center;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
 }
 
 .avatar img {
-  width: auto;
-  height: 100%;
-  margin-left: -25px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
 
 .description {
   margin-left: auto;
   margin-right: auto;
-  width: 52em;
+  width: 100%;
   text-align: center;
+  padding: 20px 20px;
 }
 
 .description p {
@@ -40,21 +39,33 @@
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  color: var(--clr--blue);
+  color: white;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 700px) {
   .description {
-    width: 30em;
+    padding: 20px 10em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro {
+    padding-top: 10rem;
   }
 }
 
 @media screen and (max-width: 400px) {
   .description {
-    width: 10em;
+    display: none;
+  }
+  .intro {
+    padding-top: 0px;
+  }
+  .topBar {
+    padding: 20px 20px;
   }
   .avatar {
-    margin-left: -12em;
+    grid-column: 1 / span 3;
   }
 }
 
