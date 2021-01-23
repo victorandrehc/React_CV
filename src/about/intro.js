@@ -11,8 +11,8 @@ const Intro = () => {
         </div>
         <div className='description'>
             <p> 
-            I'm a engineer who is enthusiastic about designing and implementing challenging projects.  
-            Currently I am a member of the software engineering team at the update from SOAR telescope adaptive optics module. A MIMO control system to astronomical instrumentation.
+            I'm an engineer who is enthusiastic about designing and implementing challenging projects.  
+            Currently I am a member of the software engineering team at the update from SOAR telescope adaptive optics module. A MIMO control system for astronomical instrumentation.
             </p>
             <p>
             Keywords: Control, Automation, Embedded Systems, Systems Engineering, IoT, Industry 4.0.
